@@ -1,0 +1,259 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My quiz v3</title>
+  <link rel="stylesheet" href="css/index.css">
+  <meta name="description" content="a quiz about myself">
+  <meta name="keywords" content="quiz, me">
+  <meta name="author" content="nkechi EO">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+</head>
+
+<body>
+
+  <!-- Add your site or application content here -->
+  
+<h1> Myself </h1>
+
+<!-- how to comment -->
+
+<h2> A small intro </h2>
+
+<p> hello, this is a quiz about myself. each correct answer is worth 2 points, but certain close answers may be worth 1.</p> 
+<p>(eg, saying spring instead of autumn for my favourite season.)<p/>
+<p>(autumn would get you 2 points, spring 1 and winter/summer 0)</p>
+
+<h3> Let's begin: </h2>
+
+<ol id="bigList">
+  <li><h4> What am I doing for my A-Levels:</h4></li>
+
+  <ol class="littleList">  
+    <li>Physics, Maths, Chemistry, French</li>
+    <li>Computing, Maths, Physics, Chemistry</li>
+    <li>Physics, Maths, Computing, French</li>
+    <li>French, Maths, Chemistry, English Lang</li>
+    
+  </ol>
+ 
+<form id = "form-alevels">
+  <label> enter a number </label>
+ <select name="number1">
+    <option> 1 </option>
+    <option> 2 </option>
+    <option> 3</option>
+    <option> 4 </option> 
+  </select> 
+  <input type="submit" value="Submit" />
+</form>
+  <div id="feedback"></div>
+  
+  <li><h4> My favourite animal? </h4></li>
+  
+  <ol class="littleList"> 
+    <li> Bears </li>
+    <li> Frogs </li>
+    <li> Foxes </li>
+    <li> Lynxes </li>
+    
+  </ol>
+
+<form id="form-animals">
+  <label> enter a number </label>
+  <select name="number2">
+    <option> 1 </option>
+    <option> 2 </option>
+    <option> 3</option>
+    <option> 4 </option>
+  </select>  
+  <input type="submit" value="Submit" />
+</form>
+
+  <li><h4> My favourite snack? </h4></li>
+    
+    <ol class="littleList"> 
+      <li> Salted popcorn </li>
+      <li> Mars </li>
+      <li> Tic Tacs </li>
+      <li> Green Grapes </li>
+      
+    </ol>
+
+<form id="form-snacks">
+  <label> a number </label>
+  <select name="number3">
+    <option> 1 </option>
+    <option> 2 </option>
+    <option> 3</option>
+    <option> 4 </option>
+  </select> 
+  <input type="submit" value="Submit" />
+</form>
+
+   <li><h4>My favourite movie?</li></h4>
+    
+   <ol class="littleList"> 
+     <li>Spiderman: Homecoming </li>
+     <li>Princess Mononoke</li>
+     <li>Remember the Titans </li>
+     <li>Back to the Future </li>
+   </ol> 
+
+<form id="form-movie">
+  <select name="number4">
+    <option> 1 </option>
+    <option> 2 </option>
+    <option> 3</option>
+    <option> 4 </option>
+  </select> 
+  <input type="submit" value="Submit" />
+</form>
+
+  <li><h4>My favourite series?</li></h4>
+  
+  <ol class="littleList">
+    <li>Avatar: The Last Airbender </li>
+    <li>Bridgerton </li>
+    <li>Ninjago </li>
+    <li>All of Us Are Dead </li>
+  </ol>
+
+<form id="form-tv">
+  <select>
+    <option> 1 </option>
+    <option> 2 </option>
+    <option> 3</option>
+    <option> 4 </option>
+  </select> 
+  <input type="submit" value="Submit" />
+</form>
+
+  <li><h4>Favourite band?</li></h4>
+
+  <ol class="littleList">
+    <li>FLO </li>
+    <li>Heavenly </li>
+    <li>TLC </li>
+    <li>P1Harmony </li>
+  </ol>  
+
+<form id="form-music-group">
+  <select name="number5">
+    <option> 1 </option>
+    <option> 2 </option>
+    <option> 3</option>
+    <option> 4 </option>
+  </select> 
+  <input type="submit" value="Submit" />
+</form>
+
+  <li><h4>Current favourite song?</li></h4> 
+
+  <ol class="littleList">
+    <li>Great Things </li>
+    <li>Trash </li>
+    <li>Naive</li>
+    <li>Paralyzer </li>
+  </ol>  
+
+<form id="form-fav-song">
+  <select name="number6">
+    <option> 1 </option>
+    <option> 2 </option>
+    <option> 3</option>
+    <option> 4 </option>
+  </select> 
+  <input type="submit" value="Submit" />
+</form>
+
+  <li><h4>Least favourite song?</li></h4>
+
+  <ol class="littleList">
+    <li>Rude </li>
+    <li>Karma </li>
+    <li>Sweet Caroline </li>
+    <li>Somebody That I Used To Know </li>
+  </ol>  
+
+<form id="form-bad-song">
+  <select name="number7">
+    <option> 1 </option>
+    <option> 2 </option>
+    <option> 3</option>
+    <option> 4 </option>
+  </select> 
+  <input type="submit" value="Submit" />
+</form>
+
+  <li><h4>Where do I want to live in the future?</li></h4>
+
+  <ol class="littleList">
+    <li>Switzerland </li>
+    <li>France </li>
+    <li>Jordan </li>
+    <li>Canada </li>
+  </ol>  
+
+<form id="form-country">
+  <select name="number8">
+    <option> 1 </option>
+    <option> 2 </option>
+    <option> 3</option>
+    <option> 4 </option>
+  </select> 
+  <input type="submit" value="Submit" />
+</form>
+
+  <li><h4>If not tech, what area would I most like to work in, in the future?</li></h4>
+
+  <ol class="littleList">
+    <li>Fashion </li>
+    <li>Cooking/Baking </li>
+    <li>Physics </li>
+    <li>Sports </li>
+  </ol>  
+
+<form id="form-career">
+  <select name="number9">
+    <option> 1 </option>
+    <option> 2 </option>
+    <option> 3</option>
+    <option> 4 </option>
+  </select> 
+  <input type="submit" value="Submit" />
+</form>
+
+</ol>
+
+<p> thank you for playing, below are your results </p>
+
+<button> My Results </button>
+
+<h4> 20-16, You're quite good at this!</h4>
+
+<p> either you know me a bit too well or you are an expert guesser but you did good so congrats! </p>
+
+<h4> 15-11, Not bad! </h4>
+
+<p> you made some obvious mistakes but it's fine, you know me quite well too and this is a solid score! </p>
+
+<h4> 10-6, Its ok... </h4>
+
+<p> it's fine ig. thats all there is to say really. </p>
+
+<h4> 5-0, What was the point? </h4>
+
+<p> ... </p>
+
+<!-- end of content -->
+
+<script src="js/index.js"></script>
+</body>
+
+</html>
